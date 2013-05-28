@@ -1,0 +1,11 @@
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/obj/Debug/QDFeedParser.Android.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/bin/Debug/QDFeedParser.Android.dll.mdb
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/bin/Debug/QDFeedParser.Android.dll
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/bin/Debug/QDFeedParser.Android.apk
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/obj/Debug/android/bin/QDFeedParser.Android.apk
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/obj/Debug/res/values/strings.xml
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/obj/Debug/R.cs.flag
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/bin/Debug/QDFeedParser.Android-Signed.apk
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/obj/Debug/uploadflags.txt
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/obj/Debug/QDFeedParser.Android.dll
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.Android/obj/Debug/QDFeedParser.Android.dll.mdb

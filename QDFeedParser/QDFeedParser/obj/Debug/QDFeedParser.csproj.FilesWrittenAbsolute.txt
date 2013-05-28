@@ -1,0 +1,4 @@
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser/bin/Debug/QDFeedParser.dll.mdb
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser/bin/Debug/QDFeedParser.dll
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser/obj/Debug/QDFeedParser.dll
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser/obj/Debug/QDFeedParser.dll.mdb

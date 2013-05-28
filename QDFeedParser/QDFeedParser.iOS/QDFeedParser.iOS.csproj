@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CA6A01D-1D94-4C1D-B579-0DB74511AEA9}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>QDFeedParser.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>QDFeedParser.iOS</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;FRAMEWORK;MONO;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="..\QDFeedParser\AsyncFeedRequestState.cs">
+      <Link>AsyncFeedRequestState.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\Atom10Feed.cs">
+      <Link>Atom10Feed.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\Atom10FeedItem.cs">
+      <Link>Atom10FeedItem.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\BaseFeedFactory.cs">
+      <Link>BaseFeedFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\BaseFeedItem.cs">
+      <Link>BaseFeedItem.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\BaseSyndicationFeed.cs">
+      <Link>BaseSyndicationFeed.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\DefaultFeedInstanceProvider.cs">
+      <Link>DefaultFeedInstanceProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\FeedTuple.cs">
+      <Link>FeedTuple.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\FeedType.cs">
+      <Link>FeedType.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\FileSystemFeedFactory.cs">
+      <Link>FileSystemFeedFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\HttpFeedFactory.cs">
+      <Link>HttpFeedFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\IFeed.cs">
+      <Link>IFeed.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\IFeedFactory.cs">
+      <Link>IFeedFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\IFeedInstanceProvider.cs">
+      <Link>IFeedInstanceProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\IFeedItem.cs">
+      <Link>IFeedItem.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\QDFeedExceptions.cs">
+      <Link>QDFeedExceptions.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\Rss20Feed.cs">
+      <Link>Rss20Feed.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\Rss20FeedItem.cs">
+      <Link>Rss20FeedItem.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\Xml\FeedXmlParserBase.cs">
+      <Link>Xml\FeedXmlParserBase.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\Xml\IFeedXmlParser.cs">
+      <Link>Xml\IFeedXmlParser.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\Xml\LinqFeedXmlParser.cs">
+      <Link>Xml\LinqFeedXmlParser.cs</Link>
+    </Compile>
+    <Compile Include="..\QDFeedParser\Xml\XpathFeedXmlParser.cs">
+      <Link>Xml\XpathFeedXmlParser.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\QDFeedParser\QDFeedParser.csproj">
+      <Link>QDFeedParser.csproj</Link>
+    </None>
+    <None Include="..\QDFeedParser\bin\Debug\QDFeedParser.dll">
+      <Link>bin\Debug\QDFeedParser.dll</Link>
+    </None>
+    <None Include="..\QDFeedParser\bin\Debug\QDFeedParser.dll.mdb">
+      <Link>bin\Debug\QDFeedParser.dll.mdb</Link>
+    </None>
+  </ItemGroup>
+</Project>

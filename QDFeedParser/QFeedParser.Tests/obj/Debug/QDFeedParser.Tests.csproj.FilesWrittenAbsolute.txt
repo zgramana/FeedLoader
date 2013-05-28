@@ -1,0 +1,5 @@
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QFeedParser.Tests/bin/Debug/QDFeedParser.Tests.dll.config
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QFeedParser.Tests/bin/Debug/QDFeedParser.Tests.dll.mdb
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QFeedParser.Tests/bin/Debug/QDFeedParser.Tests.dll
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QFeedParser.Tests/obj/Debug/QDFeedParser.Tests.dll
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QFeedParser.Tests/obj/Debug/QDFeedParser.Tests.dll.mdb

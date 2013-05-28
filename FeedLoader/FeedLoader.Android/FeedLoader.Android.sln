@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedLoader.Android", "FeedLoader.Android\FeedLoader.Android.csproj", "{916D68C1-DA32-4861-A56E-52F064454087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QDFeedParser.Android", "..\..\QDFeedParser\QDFeedParser.Android\QDFeedParser.Android.csproj", "{AC3897A4-BE88-413D-A603-E87414DBB797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{916D68C1-DA32-4861-A56E-52F064454087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916D68C1-DA32-4861-A56E-52F064454087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916D68C1-DA32-4861-A56E-52F064454087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916D68C1-DA32-4861-A56E-52F064454087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3897A4-BE88-413D-A603-E87414DBB797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3897A4-BE88-413D-A603-E87414DBB797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3897A4-BE88-413D-A603-E87414DBB797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3897A4-BE88-413D-A603-E87414DBB797}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FeedLoader.Android\FeedLoader.Android.csproj
+	EndGlobalSection
+EndGlobal

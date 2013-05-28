@@ -1,0 +1,4 @@
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.iOS/bin/Debug/QDFeedParser.iOS.dll.mdb
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.iOS/bin/Debug/QDFeedParser.iOS.dll
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.iOS/obj/Debug/QDFeedParser.iOS.dll
+/Users/zgramana/Xamarin/Presentations/QDFeedParser/QDFeedParser.iOS/obj/Debug/QDFeedParser.iOS.dll.mdb
